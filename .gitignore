@@ -1,8 +1,8 @@
 .gradle
-/build/
-/bin/
+build/
+bin/
 
-/.metadata/
+.metadata/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -29,3 +29,5 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+test/**/*Test.java
