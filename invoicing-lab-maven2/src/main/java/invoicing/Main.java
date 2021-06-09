@@ -51,7 +51,7 @@ public class Main {
 //        }
         Field descrField = productClass.getDeclaredField("description");
         descrField.setAccessible(true);
-        descrField.set(p1, "Good intro to Java!!!");
+        descrField.set(p1, "This book is a good introduction to Java");
         System.out.printf("Product 1: %s%n", p1);
 
         // Common entity metadata column descriptors
