@@ -28,7 +28,7 @@ public class Main {
         Product p2 = new Product("BK002", "UML Distilled",
                 "UML described briefly ...", 25.50);
         Product[] products = {p1, p2,
-                new Product("AC001", "Whiteboard Markers", "5 colors set", 7.8),
+                new Product("AC019", "Monitor", "AlphaView", 750.99),
                 new Product("SV001", "Mobile Internet", "On-demand mobile internet package",
                         10.99, Unit.GB),
                 new Product("DV001", "2 Band Router", "Supports 2.4 GHz and 5.7 GHz bands",
